@@ -30,6 +30,8 @@ section[data-testid="stSidebar"] { background-color: #0D0F1A !important; border-
 .stTabs [data-baseweb="tab"] { background: transparent; border-radius: 10px; color: #8B8FA8;
   font-family: 'DM Sans', sans-serif; font-weight: 500; padding: 10px 24px; border: none; }
 .stTabs [aria-selected="true"] { background: linear-gradient(135deg, #6C63FF, #00D9C0) !important; color: #fff !important; }
+.stTabs [aria-selected="true"] span, .stTabs [aria-selected="true"] p { color: #fff !important; }
+.stTabs [aria-selected="false"] span, .stTabs [aria-selected="false"] p { color: #EAEAF0 !important; }
 .stTabs [data-baseweb="tab-highlight"], .stTabs [data-baseweb="tab-border"] { display: none; }
 
 /* ── Button ── */
