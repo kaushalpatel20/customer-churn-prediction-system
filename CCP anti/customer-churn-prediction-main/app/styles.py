@@ -4,7 +4,8 @@ CSS = """<style>
 /* ── Base & Layout ── */
 .stApp { background-color: #0F1117; }
 .block-container { padding-top: 1rem !important; max-width: 1200px; }
-#MainMenu, footer, header { visibility: hidden; }
+#MainMenu, footer { visibility: hidden; }
+header[data-testid="stHeader"] { background: transparent !important; }
 .stDeployButton { display: none; }
 
 /* ── Typography ── */
