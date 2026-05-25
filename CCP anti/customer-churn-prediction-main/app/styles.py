@@ -7,6 +7,8 @@ CSS = """<style>
 #MainMenu, footer { visibility: hidden; }
 header[data-testid="stHeader"] { background: transparent !important; }
 .stDeployButton { display: none; }
+[data-testid="stIconMaterial"] { color: #EAEAF0 !important; }
+[data-testid="stSidebar"] [data-testid="stIconMaterial"] { color: #6C63FF !important; }
 
 /* ── Typography ── */
 h1,h2,h3,h4 { font-family: 'Space Grotesk', sans-serif !important; color: #EAEAF0 !important; }
