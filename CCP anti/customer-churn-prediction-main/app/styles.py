@@ -10,7 +10,8 @@ header[data-testid="stHeader"] { background: transparent !important; }
 
 /* ── Typography ── */
 h1,h2,h3,h4 { font-family: 'Space Grotesk', sans-serif !important; color: #EAEAF0 !important; }
-p, label, .stMarkdown, span { font-family: 'DM Sans', sans-serif; color: #8B8FA8; }
+p, label, .stMarkdown { font-family: 'DM Sans', sans-serif; color: #8B8FA8; }
+span { font-family: 'DM Sans', sans-serif; }
 
 /* ── Sidebar ── */
 section[data-testid="stSidebar"] { background-color: #0D0F1A !important; border-right: 1px solid rgba(255,255,255,0.06) !important; }
@@ -37,6 +38,7 @@ section[data-testid="stSidebar"] { background-color: #0D0F1A !important; border-
   font-size: 16px !important; font-weight: 600 !important; width: 100% !important;
   font-family: 'DM Sans', sans-serif !important; transition: all 0.3s ease !important; }
 .stButton > button:hover { transform: translateY(-2px) !important; box-shadow: 0 8px 25px rgba(108,99,255,0.35) !important; }
+.stButton > button span, .stButton > button p { color: #fff !important; }
 
 /* ── Cards & Metrics ── */
 [data-testid="stMetric"] { background: #1A1D27; border: 1px solid rgba(255,255,255,0.08);
